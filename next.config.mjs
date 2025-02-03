@@ -1,4 +1,17 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
+// /** @type {import('next').NextConfig} */
+// const nextConfig = {};
 
-export default nextConfig;
+// export default nextConfig;
+
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: "export",
+    images: {
+        unoptimized: true,
+    },
+    basePath: "/portfolio",
+    assetPrefix: "/portfolio/"
+};
+
+module.exports = nextConfig;
