@@ -11,20 +11,21 @@ const Projects = () => {
   ];
 
   return (
-    <section id="work" className="pt-28 pb-32 h-screen bg-gradient-to-b from-black to-gray-900 w-full">
+    <section id="work" className="pt-28 pb-32 h-auto bg-gradient-to-b from-black to-gray-900 w-full">
       <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-semibold text-white text-center mb-16 tracking-tight">
           My Works
         </h2>
-        <div className="grid md:grid-cols-3 gap-12 pt-4">
+        <div className="flex flex-wrap justify-center gap-8 md:gap-12 pt-4">
           {projects.map((project, index) => (
-            <EvervaultCard 
-              key={index} 
-              text={project.text} 
-              subheading={project.subheading} 
-              githubLink={project.githubLink}
-              className="rounded-2xl" 
-            />
+            <div key={index} className="flex-1 min-w-[280px] max-w-[320px]">
+              <EvervaultCard 
+                text={project.text} 
+                subheading={project.subheading} 
+                githubLink={project.githubLink}
+                className="rounded-2xl" 
+              />
+            </div>
           ))}
         </div>
       </div>
