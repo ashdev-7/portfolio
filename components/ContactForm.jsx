@@ -417,7 +417,7 @@ const ContactForm = () => {
   );
 
   return (
-    <div id="contact" className="w-full mx-auto border-none pt-16 px-4 md:px-16 bg-gray-900 text-gray-100">
+    <div id="contact" className="w-full mx-auto border-none pt-16 pb-12 px-4 md:px-16 bg-gray-900 text-gray-100">
       <div className="flex flex-col md:flex-row justify-center items-center gap-8">
         <div className="w-full md:w-1/2">
           <h2 className="text-3xl font-bold mb-8 text-center md:text-left">Get in Touch</h2>
