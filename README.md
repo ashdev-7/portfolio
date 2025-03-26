@@ -23,14 +23,7 @@ npm run dev  # or yarn dev
 ```
 The website will be available at `http://localhost:3000/`.
 
-### 3️⃣ Building for Production
-To create an optimized production build:
-```bash
-npm run build  # or yarn build
-npm start      # Start the production server
-```
-
-### 4️⃣ Tailwind CSS Setup
+### 3️⃣ Tailwind CSS Setup
 This project is styled with **Tailwind CSS**, making it easy to customize and maintain.
 
 ## 🤔 Why this project?
